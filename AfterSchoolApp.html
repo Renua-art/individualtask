@@ -17,7 +17,6 @@
     </style>
 
 </head>
-
 <body class="container">
     <!-- Create the DOM space for vue to run in-->
     <div id="app">
@@ -25,7 +24,6 @@
         <div class="row">
             <div class="col-md-4 col-lg-3 col-12 p-2">
                 <header>
-                
                     <button v-on:click="showCheckout" v-if="cart.length >= 1">
                         {{ cartItemCount }}
                         <span class="fa fa-cart-plus"></span> Checkout
