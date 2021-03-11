@@ -106,6 +106,7 @@
                             <input type="text" id="name" v-model="name" v-on:input="validate">
                             <small style="color:red;" v-if="errors.name">{{errors.name}}</small>
                         </div>
+                        
                         <div>
                             <label for="phone">Phone</label>
                             <input type="text" id="phone" v-model="phone" v-on:input="validate">
@@ -129,7 +130,7 @@
                             <p><b>Location:</b> {{product.location}}</p>
                             <p><b>Price:</b> ₦{{product.price}}</p> 
         
-                            
+
                         </div>
                         </main>
                         <!-- Checkout Container Ends -->
